@@ -26,6 +26,7 @@ def mainpage():
               </form>
               <p>You look like a:
               <img src="/monster/{1}"/>
+              <pre>DEBUG</pre>
               '''.format(name, name_hash)
     footer = '</body></html>'
 
